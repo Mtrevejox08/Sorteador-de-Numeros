@@ -1,91 +1,89 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    outline: none;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  outline: none;
 }
 
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
 
-.box1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
+.box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
 }
 
-h3{
-    width: 299px;
-height: 20px;
-left: 870px;
-top: 656px;
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 38px;
-color: #FFFFFF;
-margin-bottom: 15px;
+h3 {
+  width: 299px;
+  height: 20px;
+  left: 870px;
+  top: 656px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #ffffff;
+  margin-bottom: 15px;
 }
 
-input{
-width: 342px;
-height: 74px;
-background: rgba(255, 255, 255, 0.25);
-border: 5px solid red;
-border-radius: 14px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 40px;
-line-height: 47px;
-color: #FFFFFF;
-padding-left: 20px;
-display: inline-block;
+input {
+  width: 342px;
+  height: 74px;
+  background: rgba(255, 255, 255, 0.25);
+  border: 5px solid red;
+  border-radius: 14px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  color: #ffffff;
+  padding-left: 20px;
+  display: inline-block;
 }
 
-
-.box2{
-    display: block;
+.box2 {
+  display: block;
 }
 
-button{
- width: 342px;
-height: 72px;
-left: 849px;
-top: 858px;
-background:red;
-box-shadow: 0px 18px 40px rgba(206, 3, 3, 0.35);
-border-radius: 10px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 2px;
-text-align: center;
-color: #FFFFFF;
-cursor: pointer;
+button {
+  width: 342px;
+  height: 72px;
+  left: 849px;
+  top: 858px;
+  background: red;
+  box-shadow: 0px 18px 40px rgba(206, 3, 3, 0.35);
+  border-radius: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 2px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
 }
 
-.aleatoryNumber{
-    height: 180px;
-    width: 500px;
-    background-color: black;
-    border-radius: 10px;
-    text-align: center;
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-   font-size: 80px;
-   
+.aleatoryNumber {
+  height: 180px;
+  width: 500px;
+  background-color: black;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 80px;
 }
 
-#numberAleatory{
-    align-self: center;
-    margin: auto;
-    color:red ;
+#numberAleatory {
+  align-self: center;
+  margin: auto;
+  color: red;
 }
